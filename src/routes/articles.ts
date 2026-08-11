@@ -3,6 +3,7 @@ import { pool } from "../database";
 import { Article } from "../interfaces";
 import { ResultSetHeader } from "mysql2";
 import { requiredArticleData } from "../middleware/article-validation";
+import { authenticateToken } from "../middleware/auth-validation";
 
 const router = Router();
 
@@ -29,7 +30,7 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.post("/", requiredArticleData, async (req, res) => {
+router.post("/", requiredArticleData, authenticateToken, async (req, res) => {
   try {
     const { title, body, category, submitted_by } = req.body;
 
