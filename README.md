@@ -6,13 +6,6 @@ News platform
 
 This project is a news platform where you can browse and submit articles
 
-## **Table of Contents**
-
-- [Built With](#BuiltWith)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Licence](#License)
-
 ## **Built With**
 
 - TypeScript
@@ -65,10 +58,9 @@ npm install
 npm run dev
 ```
 
-
 ## **Usage**
 
-You can add users and articles using Postman and MySql Workbench. And view all articles. 
+You can add users and articles using Postman and MySql Workbench. And view all articles.
 
 ## **Licence**
 
