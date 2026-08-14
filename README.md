@@ -66,6 +66,13 @@ You can add users and articles using Postman and MySql Workbench. And view all a
 
 This project is licensed under the MIT License.
 
+## **AI Log**
+
+Tool used: ChatGPT
+Date: 10.08.26
+Purpose: Create a jwt secret
+Outcome: Got a jwt secret I used
+
 ## **Contact**
 
 Thea Nordhøy Kristensen
